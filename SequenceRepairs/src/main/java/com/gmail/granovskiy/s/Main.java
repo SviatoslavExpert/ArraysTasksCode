@@ -1,7 +1,11 @@
 /*  Restore array
-Given an unsorted array of positive integers. The array divided into monotone parts in which some elements replaced by negative values. Find missing positive integers in the array. Negative elements can be placed only inside a monotone part.
+Given an unsorted array of positive integers.
+The array divided into monotone parts in which some elements replaced by negative values.
+Find missing positive integers in the array.
+Negative elements can be placed only inside a monotone part.
 Negative elements cannot be in neighboring cells.
-* monotone part - a sequence where each next number greater(less) than previous. e.g. 4 5 6 7 8 is the monotone part, but 5 3 1 6 7 is not monotone.
+* monotone part - a sequence where each next number greater(less) than previous.
+* e.g. 4 5 6 7 8 is the monotone part, but 5 3 1 6 7 is not monotone.
 
 Input
 {array_length}
